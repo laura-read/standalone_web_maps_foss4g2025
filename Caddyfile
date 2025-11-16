@@ -1,0 +1,10 @@
+# Caddyfile for serving a web map locally
+
+{
+	auto_https off
+}
+
+http://127.0.0.1:1234 {
+	root * .
+	file_server
+}
