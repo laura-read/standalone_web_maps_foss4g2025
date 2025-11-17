@@ -102,11 +102,11 @@ standalone_web_maps_foss4g2025/
 
 3. **Serve the files locally** using the Makefile (which uses Caddy):
    ```bash
-   make serve
+   caddy run
    ```
-   This will start a local web server using Caddy at `http://localhost:1234/`
+   This will start a local web server using Caddy
 
-4. **Open in your browser**: Navigate to `http://localhost:1234/` to see your map
+4. **Open in your browser**: Navigate to `http://127.0.0.1:1234` to see your map
 
 ## Workshop Goals
 
